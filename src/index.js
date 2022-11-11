@@ -13,7 +13,7 @@ import LoadingContextProvider from './contexts/LoadingContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename="/cc12-fakebuck-web" >
     <LoadingContextProvider>
       <AuthContextProvider>
         <App />
